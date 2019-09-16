@@ -1,0 +1,261 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "validate login Page",
+        "description": "",
+        "id": "testing;validate-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139230100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open login Page",
+            "match": {
+              "location": "StepDefinitions.open_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter valid username and password",
+            "match": {
+              "location": "StepDefinitions.enter_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicked on login button",
+            "match": {
+              "location": "StepDefinitions.clicked_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 878700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "should open Homepage",
+            "match": {
+              "location": "StepDefinitions.should_open_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing",
+    "description": "",
+    "id": "testing",
+    "keyword": "Feature",
+    "uri": "Test1.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "check flipkart Homepage api",
+        "description": "",
+        "id": "api-testing;check-flipkart-homepage-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Set API endpoint",
+            "match": {
+              "location": "StepDefinitions.set_API_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "run GET request",
+            "match": {
+              "location": "StepDefinitions.run_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 812400,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat Globaltest.StepDefinitions.should_get_valid_HTTP_respone(StepDefinitions.java:47)\r\n\tat ✽.Then should get valid HTTP respone(Test2.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "should get valid HTTP respone",
+            "match": {
+              "location": "StepDefinitions.should_get_valid_HTTP_respone()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "API Testing",
+    "description": "",
+    "id": "api-testing",
+    "keyword": "Feature",
+    "uri": "Test2.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "to validate login page of Amazon",
+        "description": "",
+        "id": "validate-amazon;to-validate-login-page-of-amazon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open login page",
+            "match": {
+              "location": "StepDefinitions.open_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter username and password",
+            "match": {
+              "location": "StepDefinitions.enter_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on login",
+            "match": {
+              "location": "StepDefinitions.click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198700,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat Globaltest.StepDefinitions.should_open_HomePage(StepDefinitions.java:69)\r\n\tat ✽.Then should open HomePage(valid_Amazon.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "should open HomePage",
+            "match": {
+              "location": "StepDefinitions.should_open_HomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate Amazon",
+    "description": "",
+    "id": "validate-amazon",
+    "keyword": "Feature",
+    "uri": "valid_Amazon.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "to validate login page of UST",
+        "description": "",
+        "id": "validate-ust;to-validate-login-page-of-ust",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open login page",
+            "match": {
+              "location": "StepDefinitions.open_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter username and password",
+            "match": {
+              "location": "StepDefinitions.enter_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on login",
+            "match": {
+              "location": "StepDefinitions.click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "should open HomePage of UST",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate UST",
+    "description": "",
+    "id": "validate-ust",
+    "keyword": "Feature",
+    "uri": "valid_ust.feature"
+  }
+]

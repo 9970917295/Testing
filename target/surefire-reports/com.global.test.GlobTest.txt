@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.global.test.GlobTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 6, Errors: 0, Skipped: 4, Time elapsed: 0.433 sec <<< FAILURE! - in com.global.test.GlobTest
+test1(com.global.test.GlobTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.global.test.GlobTest.test1(GlobTest.java:23)
+
+test4(com.global.test.GlobTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [10] but found [20]
+	at com.global.test.GlobTest.test4(GlobTest.java:44)
+
+test5(com.global.test.GlobTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.amazon.com/] but found [Amazon]
+	at com.global.test.GlobTest.test5(GlobTest.java:49)
+
+test6(com.global.test.GlobTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [edgeop] but found [edgeops]
+	at com.global.test.GlobTest.test6(GlobTest.java:54)
+
+test_Title(com.global.test.GlobTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [ola] but found [uber]
+	at com.global.test.GlobTest.test_Title(GlobTest.java:18)
+
+test_Url(com.global.test.GlobTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.olx.com/] but found [olx]
+	at com.global.test.GlobTest.test_Url(GlobTest.java:11)
+
